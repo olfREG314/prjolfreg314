@@ -31,9 +31,6 @@
         class="flex flex-col mx-auto gap-y-2 max-w-2xl align-center text-center text-sm font-light tracking-widest text-cstm_white"
       >
         <p>Simple person in life.</p>
-		<ul>
-			<li><strong>OS :</strong> Arch linux</li>
-		</ul>
       </div>
     </div>
   </section>
