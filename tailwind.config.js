@@ -5,7 +5,24 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        /*
+           Comforta font is available on google.fonts.
+           Added on <head>.
+        */
         comfortaa: ["Comfortaa"],
+
+        /*
+           CURRENT-IN-USE
+           Iosevka https://typeof.net/Iosevka/
+           font is not available for the web from official repo.
+           But https://github.com/iosevka-webfonts/iosevka/blob/main/Iosevka.css#LL60 
+           Added the css on <head>
+           Note -
+           Keep the font-weight, font-style from tailwind and the iosevka same for use.
+           Works by default. If the problem occurs then the problem is in code not in importing.
+         */
+        iosevka: ["Iosevka"],
+        iosevkaext: ["Iosevka Extended"],
       },
       colors: {
         cstm_black: "#141414",
