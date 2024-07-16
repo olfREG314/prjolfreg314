@@ -1,5 +1,5 @@
 <script setup></script>
 <template>
-  <div>Notes page</div>
+  <div class="text-white">Notes page</div>
 </template>
 <style scoped></style>
