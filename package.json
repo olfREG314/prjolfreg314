@@ -5,7 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "ntsync": "rsync -avv --info=progress2 --copy-links /home/olfreg314/notes/org-export/publish ./src/components/notes",
+    "ntmodifyext": "sh ./dev/modify-extension.sh",
+    "ntinserttag": "sh ./dev/insert-template-tag.sh",
+    "ntmodifyfilename": "sh ./dev/modify-file-name.sh",
+    "ntpublish": "sh ./dev/gen-publishing-note-files.sh",
+    "generatent": "npm run ntpublish && npm run ntsync && npm run ntmodifyext && npm run ntinserttag && npm run ntmodifyfilename exit"
   },
   "dependencies": {
     "core-js": "^3.8.3",

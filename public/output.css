@@ -516,8 +516,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .inset-x-0 {
@@ -527,6 +539,10 @@ video {
 
 .bottom-24 {
   bottom: 6rem;
+}
+
+.bottom-8 {
+  bottom: 2rem;
 }
 
 .mx-auto {
@@ -560,8 +576,28 @@ video {
   margin-top: 2rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
+}
+
+.grid {
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-3 {
+  height: 0.75rem;
 }
 
 .h-6 {
@@ -579,6 +615,10 @@ video {
 
 .w-1 {
   width: 0.25rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-fit {
@@ -601,6 +641,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
 }
 
 .rounded-md {
@@ -638,6 +682,11 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-4 {
@@ -679,6 +728,20 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.outline-2 {
+  outline-width: 2px;
+}
+
+.outline-4 {
+  outline-width: 4px;
+}
+
+.ring {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
 /* @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"); */

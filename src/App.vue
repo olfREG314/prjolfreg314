@@ -1,11 +1,9 @@
 <script setup>
-import HomePage from "@/views/HomePage.vue";
-
-import DroidNav from "@/components/droid-nav.vue";
+import DroidNav from "@/components/DroidNav.vue";
 </script>
 
 <template>
-  <HomePage />
+  <RouterView />
   <DroidNav />
 </template>
 
