@@ -1,5 +1,5 @@
 <script setup>
-import DroidNav from "@/components/droid-nav.vue";
+import DroidNav from "@/components/DroidNav.vue";
 </script>
 
 <template>

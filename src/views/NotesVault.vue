@@ -1,5 +1,11 @@
-<script setup></script>
+<script setup>
+import NotesContentViewer from "@/components/NotesContentViewer.vue";
+import NotesListDroidNav from "@/components/NotesListDroidNav.vue";
+</script>
 <template>
-  <div class="text-white">Notes page</div>
+  <section id="notes-vault" class="text-white">
+    <NotesListDroidNav />
+    <NotesContentViewer />
+  </section>
 </template>
 <style scoped></style>
